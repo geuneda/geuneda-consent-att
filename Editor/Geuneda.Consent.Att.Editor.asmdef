@@ -1,0 +1,16 @@
+{
+    "name": "Geuneda.Consent.Att.Editor",
+    "rootNamespace": "Geuneda.Consent.Att.Editor",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

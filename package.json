@@ -1,0 +1,16 @@
+{
+  "name": "com.geuneda.consent.att",
+  "displayName": "Geuneda Consent ATT",
+  "author": "geuneda",
+  "version": "0.1.0",
+  "unity": "2021.3",
+  "license": "MIT",
+  "description": "com.geuneda.consent 의 iOS 앱 추적 투명성(ATT) 공급자입니다. 네이티브 브리지(.mm)가 completion 콜백으로 답을 받고(폴링 없음), 앱이 활성 상태가 될 때까지 기다렸다 묻습니다. iOS 빌드에 추적 설명 문구(NSUserTrackingUsageDescription, 언어별 InfoPlist.strings)를 넣고 AppTrackingTransparency 를 약하게 링크합니다. 그 밖의 플랫폼은 ATT 없음(NotSupported)입니다.",
+  "type": "library",
+  "hideInEditor": false,
+  "dependencies": {
+    "com.geuneda.consent": "0.1.0",
+    "com.geuneda.core": "0.4.0",
+    "com.cysharp.unitask": "2.5.10"
+  }
+}
