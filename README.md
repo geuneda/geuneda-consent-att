@@ -81,7 +81,7 @@ Assets > Create > Geuneda > Consent > ATT Usage Description 으로 설정 에셋
 
 ## 한계
 
-- 확인한 범위(2026-10-17): Xcode 27.1 로 시뮬레이터 빌드·링크(번들의 `ko.lproj`·`ja.lproj` InfoPlist.strings, UnityFramework 의 AppTrackingTransparency 약한 링크 `LC_LOAD_WEAK_DYLIB`), iOS 18.6 시뮬레이터에서 상태 읽기(`NotDetermined`). ATT 창의 답과 콜백, 실제 기기는 확인하지 않았습니다.
+- 확인한 범위(2026-10-17): Xcode 27.1 로 시뮬레이터 빌드·링크(번들의 `ko.lproj`·`ja.lproj` InfoPlist.strings, UnityFramework 의 AppTrackingTransparency 약한 링크 `LC_LOAD_WEAK_DYLIB`), iOS 18.6 시뮬레이터에서 상태 읽기(`NotDetermined`), UMP 동의 폼 뒤 ATT 창 표시와 허용 답의 콜백(`Authorized`). 실제 기기와 거부·제한 답은 확인하지 않았습니다.
 - 추적 허용 전에 보여줄 안내 화면(사전 안내)은 게임이 만듭니다.
 - 설정 앱에서 답을 바꾸면 다음에 `Status` 를 읽을 때 바뀐 값이 보입니다(변경 이벤트는 없음).
 
